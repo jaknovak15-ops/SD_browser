@@ -32,3 +32,6 @@ pip install exifread
 
 pip install PyQt5
 
+executable for windows added - use it at your own risk!!! - 
+Package command D:\TOOLS>pyinstaller --noconfirm --onefile --name=SDbrowser --windowed --icon=1.ico SDbrowser.py
+

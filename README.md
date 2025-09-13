@@ -21,17 +21,20 @@ scrolling support and arrow support.
 May be it can be usefull for somebody.
 
 
+Installation:
 
-required addon - 
+1. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
 
-pip install pillow
+2. Run with Python:
+   ```
+   python SD_browser.py
+   ```
 
-pip install sd-parsers
-
-pip install exifread
-
-pip install PyQt5
-
-executable for windows added - use it at your own risk!!! - 
-Package command D:\TOOLS>pyinstaller --noconfirm --onefile --name=SDbrowser --windowed --icon=1.ico SDbrowser.py
+3. (Optional) Compile as executable:
+   ```
+   pyinstaller --noconfirm --onefile --name=SDbrowser --windowed --icon=1.ico SD_browser.py
+   ```
 

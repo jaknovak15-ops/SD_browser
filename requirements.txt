@@ -1,0 +1,4 @@
+pillow
+sd-parsers
+exifread
+PyQt5
